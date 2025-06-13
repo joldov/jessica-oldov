@@ -5,8 +5,9 @@ body {
     color: #333;
     line-height: 1.6;
   }
+  
   html {
-    font-size: 62.5%; 
+    font-size: 8px;
   }
   
   .hero {
@@ -16,18 +17,16 @@ body {
     text-align: left;
   }
   
-  
   .hero-content {
     max-width: 50%;
     animation: fadeIn 2s ease-in-out;
-    margin-left: 10rem
+    margin-left: 10rem;
   }
   
-
   .hero-image {
     display: flex;
     justify-content: center;
-    align-items: center; /* ✅ center image vertically */
+    align-items: center; 
     flex: 1;
   }
   
@@ -41,26 +40,25 @@ body {
     margin-left: 10rem;
   }
   
-  
   .hero h1 {
-    font-size: 8rem;
+    font-size: 4rem; /* 32px */
     margin-bottom: 0.5rem;
   }
-
+  
   .hero h2 {
-    font-size: 4rem;
+    font-size: 2.5rem; /* 20px */
     /* margin-bottom: 0.2rem; */
     font-weight: normal;
   }
   
   .hero p {
-    font-size: 3rem;
+    font-size: 1.8rem; /* 14.4px */
     margin-bottom: 1.5rem;
   }
   
   .hero button {
     padding: 0.75rem 1.5rem;
-    font-size: 1rem;
+    font-size: 1rem; /* 8px */
     background-color: #007acc;
     color: white;
     border: none;
@@ -82,29 +80,130 @@ body {
   }
   
   .experience h2 {
-    font-size: 7rem;
+    font-size: 4rem; /* 32px */
     margin-bottom: 2rem;
   }
   
-  
   .job {
     margin-bottom: 5rem;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    /* text-align: left; */
+    font-size: 1.6rem; /* 12.8px */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* height: 100%; */
   }
   
   .job h3 {
     margin: 0;
-    font-size: 2.5rem;
+    font-size: 2rem; /* 16px */
+    margin-bottom: 0.5rem;
+  }
+  
+  .job p {
+    font-size: 1.6rem; /* 12.8px */
+    margin-bottom: 1rem;
   }
   
   .job ul {
-    padding-left: 2.5rem;
+    padding-left: 1.25rem;
+    font-size: 1.6rem; /* 12.8px */
+  }
+  
+  .job-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem; /* 40px */
+    /* width: 100%; */
+  }
+  
+  .projects {
+    max-width: 100%;
+    animation: fadeIn 2s ease-in-out;
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+  
+  .projects h2 {
+    font-size: 4rem; /* 32px */
+    margin-bottom: 4rem;
+  }
+  
+  .projects-small {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-size: 1.6rem; /* 12.8px */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* REMOVE height: 50%; */
+  }
+  
+  .projects-small h3 {
+    font-size: 2rem; /* 16px */
+    margin-bottom: 0.5rem;
+  }
+  
+  .projects-small p {
+    font-size: 1.6rem; /* 12.8px */
+    margin-bottom: 1rem;
+  }
+  
+  .projects-small ul {
+    padding-left: 1.25rem;
+    font-size: 1.6rem; /* 12.8px */
+  }
+  
+  .contact-section {
+    text-align: center;
+    padding: 5rem 2rem;
+    background-color: #f9f9f9;
+    border-top: 1px solid #ddd;
+  }
+  
+  .contact-section h2 {
+    font-size: 3rem; /* 24px */
+    margin-bottom: 1rem;
+  }
+  
+  .contact-section p {
+    font-size: 1.8rem; /* 14.4px */
+    color: #555;
+    margin-bottom: 2rem;
+  }
+  
+  .contact-btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    font-size: 1.8rem; /* 14.4px */
+    background-color: #3776AB;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-btn:hover {
+    background-color: #2c5d89;
   }
   
   footer {
     text-align: center;
     padding: 2rem 1rem;
     background-color: #eee;
-    font-size: 2rem;
+    font-size: 1.6rem; /* 12.8px */
   }
   
   @keyframes fadeIn {
@@ -118,120 +217,8 @@ body {
   }
   
   .custom-icon {
-    font-size: 100px;
+    font-size: 4rem; 
     color: #333;
-    margin-right: 1.5rem; /* adds space to the right of each icon */
-  }
-  
-  .job-grid {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-  }
-  
-  
-  .job {
-    background-color: #fff;
-    padding: 2rem;
-    border-radius: 20px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    /* text-align: left; */
-    font-size: 1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    /* height: 100%; */
-  }
-  .job h3 {
-    font-size: 3rem;
-    margin-bottom: 0.5rem;
-  }
-  
-  .job p {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-  }
-  
-  .job ul {
-    padding-left: 1.25rem;
-    font-size: 2rem;
-  }
-
-  .project-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 5rem; /* 10rem might be too much */
-    /* width: 100%; */
-  }
-  
-  .projects {
-    max-width: 100%;
-    animation: fadeIn 2s ease-in-out;
-    margin-left: 10rem;
-    margin-right: 10rem;
-  }
-  .projects h2 {
-    font-size: 7rem;
-    margin-bottom: 2rem;
-  }
-
-  .projects-small {
-    background-color: #fff;
-    padding: 2rem;
-    border-radius: 20px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    font-size: 1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    /* REMOVE height: 50%; */
-  }
-  
-  .projects-small h3 {
-    font-size: 3rem;
-    margin-bottom: 0.5rem;
-  }
-  
-  .projects-small p {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-  }
-  
-  .projects-small ul {
-    padding-left: 1.25rem;
-    font-size: 2rem;
-  }
-    
-  .contact-section {
-    text-align: center;
-    padding: 5rem 2rem;
-    background-color: #f9f9f9;
-    border-top: 1px solid #ddd;
-  }
-  
-  .contact-section h2 {
-    font-size: 4rem;
-    margin-bottom: 1rem;
-  }
-  
-  .contact-section p {
-    font-size: 3rem;
-    color: #555;
-    margin-bottom: 2rem;
-  }
-  
-  .contact-btn {
-    display: inline-block;
-    padding: 1rem 2rem;
-    font-size: 2rem;
-    background-color: #3776AB;
-    color: white;
-    border-radius: 8px;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-  }
-  
-  .contact-btn:hover {
-    background-color: #2c5d89;
+    margin-right: 1.5rem; 
   }
   
