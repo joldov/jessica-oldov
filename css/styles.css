@@ -5,7 +5,9 @@ body {
     color: #333;
     line-height: 1.6;
   }
-  
+  html {
+    font-size: 10px;
+  }
   .hero {
     display: flex;
     justify-content: space-between;
