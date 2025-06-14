@@ -38,7 +38,6 @@ body {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   }
   
-  
   @media (max-width: 768px) {
     .profile-pic {
       width: 200px;
@@ -46,7 +45,6 @@ body {
       margin-left: 0;
     }
   }
-  
   
   .hero h1 {
     font-size: 4rem;
@@ -78,6 +76,7 @@ body {
     background-color: #005f99;
   }
   
+
   .experience {
     max-width: 100%;
     animation: fadeIn 2s ease-in-out;
@@ -86,8 +85,13 @@ body {
   }
   
   .experience h2 {
-    font-size: 2.5rem; /* updated */
-    margin-bottom: 1.5rem; /* adjusted */
+    font-size: 2.5rem; 
+    margin-bottom: 1.5rem;
+  }
+  
+  .experience p {
+    font-size: 1.8rem; 
+    margin-bottom: 1.5rem;
   }
   
   .job {
@@ -109,13 +113,13 @@ body {
   }
   
   .job p {
-    font-size: 1.8rem; /* updated */
+    font-size: 1.8rem; 
     margin-bottom: 1rem;
   }
   
   .job ul {
     padding-left: 1.25rem;
-    font-size: 1.8rem; /* updated */
+    font-size: 1.8rem; 
   }
   
   footer {
@@ -161,8 +165,13 @@ body {
   }
   
   .projects h2 {
-    font-size: 2.5rem; /* updated */
-    margin-bottom: 1.5rem; /* adjusted */
+    font-size: 2.5rem; 
+    margin-bottom: 1.5rem;
+  }
+  
+  .projects p {
+    font-size: 1.8rem; 
+    margin-bottom: 1.5rem;
   }
   
   .projects-small {
@@ -182,13 +191,13 @@ body {
   }
   
   .projects-small p {
-    font-size: 1.8rem; /* updated */
+    font-size: 1.8rem; 
     margin-bottom: 1rem;
   }
   
   .projects-small ul {
     padding-left: 1.25rem;
-    font-size: 1.8rem; /* updated */
+    font-size: 1.8rem; 
   }
   
   .contact-section {
@@ -196,15 +205,17 @@ body {
     padding: 5rem 2rem;
     background-color: #f9f9f9;
     border-top: 1px solid #ddd;
+    margin-left: 10rem;
+    margin-right: 10rem;
   }
   
   .contact-section h2 {
-    font-size: 4rem;
-    margin-bottom: 1rem;
+    font-size: 2.5rem; 
+    margin-bottom: 1.5rem;
   }
   
   .contact-section p {
-    font-size: 3rem;
+    font-size: 1.8rem; 
     color: #555;
     margin-bottom: 2rem;
   }
@@ -254,13 +265,24 @@ body {
     }
   
     .experience,
-    .projects {
-      margin: 0 1rem;
+    .projects,
+    .contact-section {
+      margin-left: 1rem;
+      margin-right: 1rem;
+      padding: 0 1rem;
+      text-align: left;
     }
   
     .experience h2,
-    .projects h2 {
-      font-size: 4rem;
+    .projects h2,
+    .contact-section h2 {
+      font-size: 2rem; /* slightly smaller on mobile */
+    }
+  
+    .experience p,
+    .projects p,
+    .contact-section p {
+      font-size: 1.6rem;
     }
   
     .project-grid {
@@ -296,3 +318,4 @@ body {
       margin: 1rem;
     }
   }
+  
