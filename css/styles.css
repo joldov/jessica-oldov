@@ -86,8 +86,8 @@ body {
   }
   
   .experience h2 {
-    font-size: 7rem;
-    margin-bottom: 2rem;
+    font-size: 2.5rem; /* updated */
+    margin-bottom: 1.5rem; /* adjusted */
   }
   
   .job {
@@ -109,13 +109,13 @@ body {
   }
   
   .job p {
-    font-size: 2rem;
+    font-size: 1.8rem; /* updated */
     margin-bottom: 1rem;
   }
   
   .job ul {
     padding-left: 1.25rem;
-    font-size: 2rem;
+    font-size: 1.8rem; /* updated */
   }
   
   footer {
@@ -161,8 +161,8 @@ body {
   }
   
   .projects h2 {
-    font-size: 7rem;
-    margin-bottom: 4rem;
+    font-size: 2.5rem; /* updated */
+    margin-bottom: 1.5rem; /* adjusted */
   }
   
   .projects-small {
@@ -182,13 +182,13 @@ body {
   }
   
   .projects-small p {
-    font-size: 2rem;
+    font-size: 1.8rem; /* updated */
     margin-bottom: 1rem;
   }
   
   .projects-small ul {
     padding-left: 1.25rem;
-    font-size: 2rem;
+    font-size: 1.8rem; /* updated */
   }
   
   .contact-section {
@@ -296,4 +296,3 @@ body {
       margin: 1rem;
     }
   }
-  
